@@ -6,6 +6,11 @@
 
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 
+**Filter** : `http.host == "ichimarumaru.tech"`
+
+**Cara** :
+1. Gunakan filter diatas untuk 
+
 ## Soal 2
 
 Temukan paket dari web-web yang menggunakan basic authentication method!

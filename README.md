@@ -15,7 +15,7 @@ Temukan paket dari web-web yang menggunakan basic authentication method!
 **Cara** :
 1. Gunakan filter diatas untuk mencari paket
 ![image](https://user-images.githubusercontent.com/40484843/134595307-5b181014-e56e-4c29-b5ce-1d4103ecc368.png)
-2. Ditemukan bahwa [basic.ichimarumaru.tech](basic.ichimarumaru.tech) menggunakan basic authentication
+2. Ditemukan bahwa [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech) menggunakan basic authentication
 
 ## Soal 3
 
@@ -26,7 +26,7 @@ Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan
 **Cara** :
 1. Gunakan filter diatas untuk mencari paket
 ![image](https://user-images.githubusercontent.com/40484843/134595541-26bc7cfa-06d2-4be4-9fb2-13ffb100aa73.png)
-2. Ditemukan ```username``` dan ```password``` untuk login ke [basic.ichimarumaru.tech](basic.ichimarumaru.tech)
+2. Ditemukan ```username``` dan ```password``` untuk login ke [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech)
 3. Pada web tersebut ada perintah untuk menyebutkan urutan dari pengkalbelan ```T568A```
 ![image](https://user-images.githubusercontent.com/40484843/134596338-c4dd472b-73b5-4fb4-8a2a-e684e0c3d4a7.png)
 
@@ -58,7 +58,7 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 **Cara** :
 1. Gunakan filter diatas untuk mencari paket
 ![image](https://user-images.githubusercontent.com/40484843/134596115-761a6302-3107-4d8c-8052-de0b6db4c8cb.png)
-2. Ditemukan ```username``` dan ```password``` untuk login ke [portal.ichimarumaru.tech](portal.ichimarumaru.tech)
+2. Ditemukan ```username``` dan ```password``` untuk login ke [portal.ichimarumaru.tech](http://portal.ichimarumaru.tech)
 3. Pada web tersebut ada perintah untuk menyebutkan urutan dari pengkalbelan ```T568B```
 ![image](https://user-images.githubusercontent.com/40484843/134597047-d5d9f6fb-6ce4-4816-9c5d-03ec626d20c3.png)
 

@@ -59,6 +59,13 @@ Urutan ke 8 : Coklat
 
 Temukan paket mysql yang mengandung perintah query select!
 
+**Filter** : `mysql.query contains "select" || mysql.query contains "SELECT"`
+
+**Cara** :
+1. Gunakan filter diatas untuk mencari paket
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/4.png)
+2. Ditemukan paket mysql yang mengandung query select
+
 ## Soal 5
 
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!.
@@ -88,13 +95,38 @@ Urutan ke 8 : Coklat
 
 Cari username dan password ketika melakukan login ke FTP Server!
 
+**filter** : `ftp contains "USER" || ftp contains "PASS"`
+
+**Cara** :
+1. Gunakan filter diatas untuk mencari username dan password yang login ke FTP Server
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/6.png)
+
 ## Soal 7
 
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 
+**filter** : `ftp-data contains "Real.pdf"`
+
+**Cara** :
+1. Gunakan filter diatas untuk mencari file
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/7%20awal.png)
+2. Klik kanan pada package yang ditemukan, cari follow dan pilih TCP stream
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/7%20tengah.png)
+3. Ubah show data menjadi raw dan save as ke dalam perangkat
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/7tengah(2).png)
+4. Didapat file pdf yang berisi gambar
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/7%20akhir.png)
+
 ## Soal 8
 
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+
+**filter** : `ftp contains "RETR"`
+
+**Cara** :
+1. Gunakan filter diatas untuk mencari paket
+![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/8.png)
+2. Tidak didapat paket yang melakukan pengambilan file dari FTP
 
 ## Soal 9
 

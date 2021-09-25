@@ -138,6 +138,8 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
 **Cara** :
 1. Melakukan Capture Filter menggunakan filter `src port 80`. `src` digunakan karena paket yang ingin ditangkap berasal dari port 80. Apabila tidak ada paket yang ditangkap, akses web yang menggunakan HTTP. Contohnya seperti monta.if.its.ac.id.
+![image19](https://user-images.githubusercontent.com/73766214/134753572-85ba0edf-73e7-4267-ab54-b8f976d8cb88.png)
+
 
 ## Soal 12
 
@@ -145,6 +147,8 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 **Cara** :
 1. Melakukan Capture Filter menggunakan filter `port 21`, karena paket yang akan ditangkap hanya mengandung port 21.
+![image2](https://user-images.githubusercontent.com/73766214/134753553-a11f0ea7-051e-42a0-86f2-c37ecf02e09a.png)
+
 
 ## Soal 13
 
@@ -152,6 +156,8 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 **Cara** :
 1. Melakukan Capture Filter menggunakan filter `dst port 443`. `dst` digunakan karena paket yang ingin ditangkap menuju ke port 443.
+![image9](https://user-images.githubusercontent.com/73766214/134753591-a0501c0b-7c57-4e97-88a8-e0e5fc8c21e3.png)
+
 
 ## Soal 14
 
@@ -159,6 +165,7 @@ Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 **Cara** :
 1. Melakukan Capture Filter menggunakan filter `dst host kemenag.go.id`, lalu akses web kemenag tersebut dan akan muncul paket yang ditangkap.
+![image23](https://user-images.githubusercontent.com/73766214/134753619-86fe8af0-1b50-4f43-8757-795af606c183.png)
 
 ## Soal 15
 
@@ -167,3 +174,6 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Cara** :
 1. Mencari alamat IP dengan cara run `ipconfig` pada CMD
 2. Melakukan Capture Filter menggunakan filter `ip src 192.168.0.6`. 192.168.0.6 merupakan alamat IP yang telah didapatkan dari ipconfig.
+![image16](https://user-images.githubusercontent.com/73766214/134753637-a3715ee2-4ad0-4a4c-922b-6970d4458cf9.png)
+
+

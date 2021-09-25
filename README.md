@@ -100,6 +100,7 @@ Cari username dan password ketika melakukan login ke FTP Server!
 **Cara** :
 1. Gunakan filter diatas untuk mencari username dan password yang login ke FTP Server
 ![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/6.png)
+2. Didapat `username : secretuser` dan `password : aku.pengen.pw.aja`
 
 ## Soal 7
 

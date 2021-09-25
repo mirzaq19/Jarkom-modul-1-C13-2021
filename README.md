@@ -136,18 +136,34 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
+**Cara** :
+1. Melakukan Capture Filter menggunakan filter `src port 80`. `src` digunakan karena paket yang ingin ditangkap berasal dari port 80. Apabila tidak ada paket yang ditangkap, akses web yang menggunakan HTTP. Contohnya seperti monta.if.its.ac.id.
+
 ## Soal 12
 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+**Cara** :
+1. Melakukan Capture Filter menggunakan filter `port 21`, karena paket yang akan ditangkap hanya mengandung port 21.
 
 ## Soal 13
 
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
+**Cara** :
+1. Melakukan Capture Filter menggunakan filter `dst port 443`. `dst` digunakan karena paket yang ingin ditangkap menuju ke port 443.
+
 ## Soal 14
 
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
+**Cara** :
+1. Melakukan Capture Filter menggunakan filter `dst host kemenag.go.id`, lalu akses web kemenag tersebut dan akan muncul paket yang ditangkap.
+
 ## Soal 15
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+**Cara** :
+1. Mencari alamat IP dengan cara run `ipconfig` pada CMD
+2. Melakukan Capture Filter menggunakan filter `ip src 192.168.0.6`. 192.168.0.6 merupakan alamat IP yang telah didapatkan dari ipconfig.

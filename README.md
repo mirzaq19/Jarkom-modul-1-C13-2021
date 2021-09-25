@@ -13,7 +13,7 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 ![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/1%20awal.png)
 2. Klik kanan pada package yang ditemukan dan pilih follow dan pilih http stream
 ![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/1%20tengah.png)
-3. Ditemukan bahwa "ichimarumaru.tech" menggunakan webserver nginx/1.18.0 (ubuntu
+3. Ditemukan bahwa "ichimarumaru.tech" menggunakan webserver nginx/1.18.0 (ubuntu)
 ![image](https://github.com/mirzaq19/Jarkom-modul-1-C13-2021/blob/main/image/1%20akhir.png)
 
 ## Soal 2
